@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@300&family=Roboto:ital,wght@0,300;0,500;1,300;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@300&family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;0,500;1,300;1,400&display=swap');
+* {
+  box-sizing: border-box;
+
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-image: url(../images/main-h-new-rev-img-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* navbar */
+.navbar {
+  margin-top: 50px;
+}
+.navbar-toggler {
+  background-color: #c2a67c;
+}
+.nav-link {
+  font-weight: 50;
+  font-size: 16px;
+}
+
+.head-text {
+  text-align: center;
+  color: #c2a67c;
+  margin-top: 10rem;
+}
+.btn1 {
+  padding: 15px 40px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 2rem;
+  background-color: #0b1315;
+  letter-spacing: 5px;
+  border-color: #c2a67c;
+}
+
+/* About start */
+
+.about {
+  padding-bottom: 8rem;
+  background-color: #0b1315;
+}
+.about-img {
+  display: flex;
+  justify-content: center;
+}
+.about-img h1{
+    color: #c2a67c;
+    letter-spacing: 5px;
+}
+
+.about-img img {
+  margin: 20px;
+
+  width: 40px;
+  height: 10px;
+}
+.about-text {
+  height: 40%;
+  padding: 10%;
+  margin-top: 10rem;
+  color: #c2a67c;
+  text-align: center;
+}
+.about-text p {
+  font-family: "Fasthand", cursive;
+}
+.rowsetting img {
+  height: 25rem;
+}
+
+.aboutsub {
+  background-color: #091c21;
+}
+.row p {
+  font-family: "Fasthand", cursive;
+  line-height: 50px;
+  letter-spacing: 2px;
+}
+.aboutnext {
+  background-color: #0b1315;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+.aboutnext h3 {
+  font-family: "Fasthand", cursive;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.aboutnext h1 {
+  text-align: center;
+}
+.aboutnext h6{
+    letter-spacing: 5px;
+}
+
+.btn2 {
+  padding: 15px 40px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 2rem;
+  background-color: #0b1315;
+  letter-spacing: 5px;
+  border-color: #c2a67c;
+}
+.aboutset {
+  background-color: #091c21;
+
+  color: #c2a67c;
+  text-align: center;
+  padding: 10%;
+}
+.aboutset p {
+    font-family: "Fasthand", cursive;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .aboutset h1 {
+    font-size: 50px;
+  }
+.menu{
+    margin-top: 5rem;
+}
+.menu h5{
+    font-family: 'Lobster', cursive;
+    margin-top: 5px;
+
+}
+
+.menu hr{
+   background-color:#e79416;
+   margin-left:5px ;
+   line-height: 5px;
+
+}
+.menu h4{
+    margin-left: 8px;
+}
+.menu-txt{
+    margin-top:2rem;
+}
+
+.btn3 {
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2rem;
+    background-color:#091c21;
+    letter-spacing: 5px;
+   
+ border-color: #c2a67c;
+  }
+.back-img{
+background-size: cover;
+background-position: center;
+
+  margin-top: 10rem;
+}
+.aboutupdat{
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    
+   
+    background-color: #091c21;
+}
+
+.aboutupdat h4{
+    text-align: center;
+    color:#c2a67c;
+    margin-top: 2rem;
+    letter-spacing: 3px;
+}
+.aboutupdat p{
+    text-align: center;
+    color: white;
+}
+.aboutupdat p:hover{
+    color: #c2a67c;
+}
+.reservation{
+    background-color: #0b1315;
+}
+
+.aboutres {
+  
+    background-color: #0b1315;
+  }
+
+  .about-yext {
+    height: 40%;
+    padding: 10%;
+   
+    color: #c2a67c;
+    text-align: center;
+  }
+  
+ #resert{
+    
+  margin-top: 3.8rem;
+   
+
+    padding: 10px;
+    padding-left:50px;
+    background-color: #091c21;
+    color: white;
+    border-color: #c2a67c;
+    
+    scroll-behavior: auto;
+} 
+
+input[type="date"]{
+    width: 160px;
+    height: 40px;
+    margin-top: 3.8rem;
+    background: #091c21;
+    color: white;
+    border-color: #c2a67c;
+    
+}   
+.btn5{
+    margin-top: 3.8rem;
+   
+
+   
+    padding:2.5%;
+    padding-left: 90px;
+    background-color: #091c21;
+    color: white;
+    border-color: #c2a67c;
+    
+    scroll-behavior: auto;
+
+}
+
+.footer {
+    background-color:#091c21;
+   
+    
+  
+   padding-bottom: 20%;
+   padding-top: 10%;
+    
+
+
+}
+.footer img{
+    display: flex;
+    margin: auto;
+}
+.footer p{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    line-height: 3rem;
+}
